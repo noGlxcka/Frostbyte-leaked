@@ -20,8 +20,8 @@ getgenv().Settings = {
             },
         },
         ["NOTIF"] = true,
-        ["AUTOPRED"] = false,
-        ["AdvancedAutoPred"] = false,
+        ["AUTOPRED"] = true,
+        ["AdvancedAutoPred"] = true,
         ["FOV"] = inf,
         ["RESOLVER"] = false,
         ["LOCKTYPE"] = "Namecall",
@@ -50,7 +50,7 @@ getgenv().Settings = {
         }
     },
 	["Silent"] = {
-		["Enabled"] = false,
+		["Enabled"] = true,
 		["AimPart"] = "HumanoidRootPart",
 		["WallCheck"] = false,
 		["Visualize"] = false,
@@ -59,7 +59,7 @@ getgenv().Settings = {
 		   ["Vertical"] = 0.05,
 		},
 	    ["AutoPrediction"] = {
-	        ["Enabled"] = false,
+	        ["Enabled"] = true,
 	        ["Type"] = "Normal", --//Normal, Custom
            ["ping20_30"] = 0.12588,
            ["ping30_40"] = 0.11911,
@@ -83,7 +83,7 @@ getgenv().Settings = {
 		["Mode"] = "Namecall", --index,namecal
 	},
 	["FOV"] = {
-		["Enabled"] = false,
+		["Enabled"] = true,
 		["Size"] = 23,
 		["Filled"] = false,
 		["Thickness"] = 0.66,
@@ -92,9 +92,9 @@ getgenv().Settings = {
 	},
 	["Misc"] = {
 	    ["NoDelay"] = false,
-	    ["AutoReload"] = false,
+	    ["AutoReload"] = true,
 	    ["AutoAir"] = {
-	        ["Enabled"] = false,
+	        ["Enabled"] = true,
 	        ["Interval"] = 0.5,
 	    },
 	    ["CMDS"] = { 
